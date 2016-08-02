@@ -3,7 +3,7 @@ require 'cucumber'
 
 Given(/^a user goes to Amazon$/) do
   @browser = Watir::Browser.new :ff
-  @browser.goto "https://www.amazon.com"
+  @browser.goto "http://www.amazon.com"
 end
 
 When(/^they search for "([^"]*)"$/) do |arg|
